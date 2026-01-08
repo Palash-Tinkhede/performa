@@ -13,7 +13,7 @@ var Tools = require('pixl-tools');
 var mkdirp = Tools.mkdirp;
 
 var BuildTools = require('./build-tools.js');
-var setup = require('../sample_conf/setup.json');
+var setup = require('../conf/setup.json');
 
 var mode = 'dist';
 if (process.argv.length > 2) mode = process.argv[2];
