@@ -8,14 +8,7 @@ Class.subclass( Page.Base, "Page.Login", {
 	
 	onActivate: function(args) {
 		// page activation
-		function storeSessionData() {
-    const sessionId = "ea68c100d0b645727db91dce4a85fb1ea93ad04fb492e0781f1336400c6b9336";
-    const username = "admin";
-
-    localStorage.setItem("session_id", sessionId);
-    localStorage.setItem("username", username);
-}
-storeSessionData();
+		
 setTimeout( function() { Nav.go(app.navAfterLogin || config.DefaultPage) }, 1 );
 		if (app.user) {
 			// user already logged in
