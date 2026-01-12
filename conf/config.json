@@ -93,7 +93,7 @@
 		"http_htdocs_dir": "htdocs",
 		"http_max_upload_size": 104857600,
 		"http_static_ttl": 3600,
-		"http_static_index": "index-dev.html",
+		"http_static_index": "index.html",
 		"http_server_signature": "Performa 1.0",
 		"http_gzip_text": true,
 		"http_timeout": 30,
