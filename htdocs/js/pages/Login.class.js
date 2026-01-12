@@ -8,8 +8,6 @@ Class.subclass( Page.Base, "Page.Login", {
 	
 	onActivate: function(args) {
 		// page activation
-		
-setTimeout( function() { Nav.go(app.navAfterLogin || config.DefaultPage) }, 1 );
 		if (app.user) {
 			// user already logged in
 			setTimeout( function() { Nav.go(app.navAfterLogin || config.DefaultPage) }, 1 );
